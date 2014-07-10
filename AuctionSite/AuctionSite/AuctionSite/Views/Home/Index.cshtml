@@ -1,0 +1,52 @@
+﻿@model IEnumerable<AuctionSite.Models.Items>
+           
+@{
+    ViewBag.Title = "Main Home";
+}
+
+<h2>
+    Main Index</h2>
+<table style="width: 80%">
+    <tr>
+    <th>
+    </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Artist
+        </th>
+        <th>
+            Condition
+        </th>
+        <th>
+            Valuation
+        </th>
+        <th>
+            Current Bid
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td> <img alt="@item.title" src="@item.image1" />
+            </td>
+            <td>@item.title
+            </td>
+            <td>@item.artist
+            </td>
+            <td>@item.condition
+            </td>
+            <td>£@item.valuation
+            </td>
+            <td>£@item.currentBid
+            </td>
+
+            <td>
+            @Html.ActionLink("Bid", "Create", "Items", new { id=item.ItemsID }, "")
+            </td>
+        </tr>   
+    }
+</table>
