@@ -1,7 +1,0 @@
-c:\users\admin\documents\visual studio 2010\Projects\Auction\Auction\bin\Auction.dll
-c:\users\admin\documents\visual studio 2010\Projects\Auction\Auction\bin\Auction.pdb
-c:\users\admin\documents\visual studio 2010\Projects\Auction\Auction\bin\EntityFramework.dll
-c:\users\admin\documents\visual studio 2010\Projects\Auction\Auction\bin\EntityFramework.xml
-c:\users\admin\documents\visual studio 2010\Projects\Auction\Auction\obj\Debug\Auction.csprojResolveAssemblyReference.cache
-c:\users\admin\documents\visual studio 2010\Projects\Auction\Auction\obj\Debug\Auction.dll
-c:\users\admin\documents\visual studio 2010\Projects\Auction\Auction\obj\Debug\Auction.pdb
